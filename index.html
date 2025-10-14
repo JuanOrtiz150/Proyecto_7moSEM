@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Convertidor de Notación</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Convertidor de Notaciones a Posfija o Prefija</h2>
+
+      <label for="expresion">Expresión de notación Infija:</label>
+      <input type="text" id="expresion" placeholder="Ejemplo: A+B*C-D/E" />
+
+      <div class="opciones">
+        <label
+          ><input type="radio" name="tipo" value="postfija" checked />
+          Postfija</label
+        >
+        <label
+          ><input type="radio" name="tipo" value="prefija" /> Prefija</label
+        >
+      </div>
+
+      <button onclick="convertir()">Convertir</button>
+
+      <h3>Resultado:</h3>
+      <div id="resultado"></div>
+    </div>
+
+    <script src="controller.js"></script>
+  </body>
+</html>
