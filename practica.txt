@@ -1,0 +1,3 @@
+¿Para que sirve github en protyectos colaborativos?:
+es como el centro de operaciones del equipo: permite guardar el código con historial de cambios,
+ trabajar en paralelo sin pisarse los pies, revisar y comentar aportes antes de integrarlos, y automatizar tareas como pruebas o despliegues. 
